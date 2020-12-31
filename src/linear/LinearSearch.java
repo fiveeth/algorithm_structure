@@ -26,11 +26,11 @@ public class LinearSearch {
 
             long startTime = System.nanoTime();
             for (int i = 0; i < 100; i++) {
-                search(arr,n);
+                search(arr, n);
             }
             long endTime = System.nanoTime();
-            double time = (endTime-startTime)/1000000000.0;
-            System.out.println("n="+n+" 100 runs"+"总共花费"+time+"秒");
+            double time = (endTime - startTime) / 1000000000.0;
+            System.out.println("n=" + n + " 100 runs" + "总共花费" + time + "秒");
         }
     }
 }
