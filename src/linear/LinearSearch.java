@@ -1,5 +1,7 @@
 package linear;
 
+import util.ArrayGenerator;
+
 /**
  * @description: 线性查找
  * @author: guoyihua
