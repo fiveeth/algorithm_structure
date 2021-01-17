@@ -1,6 +1,6 @@
-package linear;
+package algorithm.linear;
 
-import util.ArrayGenerator;
+import algorithm.util.ArrayGenerator;
 
 /**
  * @description: 线性查找

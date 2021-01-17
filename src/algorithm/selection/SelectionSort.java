@@ -1,7 +1,7 @@
-package selection;
+package algorithm.selection;
 
-import util.ArrayGenerator;
-import util.SortedUtil;
+import algorithm.util.ArrayGenerator;
+import algorithm.util.SortedUtil;
 
 /**
  * @description: 选择排序  每一次循环都拿到最小的索引，并且跟循环起始位置的值进行交换

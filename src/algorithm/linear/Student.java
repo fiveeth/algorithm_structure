@@ -1,4 +1,4 @@
-package linear;
+package algorithm.linear;
 
 import java.util.Objects;
 

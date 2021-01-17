@@ -1,7 +1,7 @@
-package insertion;
+package algorithm.insertion;
 
-import util.ArrayGenerator;
-import util.SortedUtil;
+import algorithm.util.ArrayGenerator;
+import algorithm.util.SortedUtil;
 
 /**
  * @description: 插入排序

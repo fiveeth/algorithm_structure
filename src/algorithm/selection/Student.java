@@ -1,4 +1,4 @@
-package selection;
+package algorithm.selection;
 
 import java.util.Objects;
 
