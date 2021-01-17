@@ -1,10 +1,7 @@
 package insertion;
 
-import selection.SelectionSort;
 import util.ArrayGenerator;
 import util.SortedUtil;
-
-import java.util.Arrays;
 
 /**
  * @description: 插入排序
