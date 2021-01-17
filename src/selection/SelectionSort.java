@@ -25,7 +25,7 @@ public class SelectionSort {
     public static <E extends Comparable> E[] sort(E[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int minIndex = i;
-            for (int j = i + 1; j < arr.length; j++) {
+            for (int j = i; j < arr.length; j++) {
                 if (arr[j].compareTo(arr[minIndex]) < 0) {
                     minIndex = j;
                 }
@@ -45,7 +45,7 @@ public class SelectionSort {
     public static <E extends Comparable> E[] sort2(E[] arr) {
         for (int i = arr.length - 1; i >= 0; i--) {
             int maxIndex = i;
-            for (int j = i - 1; j >= 0; j--) {
+            for (int j = i; j >= 0; j--) {
                 if (arr[j].compareTo(arr[maxIndex]) > 0) {
                     maxIndex = j;
                 }
@@ -66,7 +66,7 @@ public class SelectionSort {
         for (int n : counts) {
             Integer[] arr = ArrayGenerator.generateRandom(n, n);
             try {
-                SortedUtil.sortTest(SelectionSort.class.getName(), arr);
+                SortedUtil.sortTest(SelectionSort.class, arr);
             } catch (Exception e) {
                 e.printStackTrace();
             }
